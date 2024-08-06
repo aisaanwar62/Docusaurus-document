@@ -34,7 +34,7 @@ Thank you for choosing Pie-Technology LMS.
 <p class="mt-3">Extensive browser support</p>
 <div class="flex items-start justify-start gap-5">
 <div class="box">
-  <img src="/img/chrome.png" class="w-10 h-10"/>
+![Chrome](https://github.com/[username]/[reponame]/blob/[branch]/chrome.png?raw=true)
 </div>
 <div class="box">
   <img src="/img/opera.png" class="w-10 h-10"/>
