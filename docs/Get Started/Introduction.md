@@ -34,7 +34,7 @@ Thank you for choosing Pie-Technology LMS.
 <p class="mt-3">Extensive browser support</p>
 <div class="flex items-start justify-start gap-5">
 <div class="box">
-![Chrome](https://github.com/aisaanwar62/Docusaurus-document/static/img/chrome.png?raw=true)
+![Chrome](https://github.com/aisaanwar62/Docusaurus-document/static/img/chrome.png)
 </div>
 <div class="box">
   <img src="/img/opera.png" class="w-10 h-10"/>
