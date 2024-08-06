@@ -16,7 +16,7 @@ Thank you for choosing Pie-Technology LMS.
 
 <h1 class="font-bold">Features</h1>
 <div class="flex items-start justify-start gap-5">
-<img src="https://github.com/aisaanwar62/Docusaurus-document/raw/main/static/img/display-solid.svg?raw=true" class="w-10 h-10"/>
+(https://github.com/aisaanwar62/Docusaurus-document/raw/main/static/img/display-solid.svg?raw=true)
 <div class="box">
   <img src="/img/opera.png" class="w-10 h-10"/>
 </div>
