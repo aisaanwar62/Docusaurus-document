@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "es2015"],
+    "jsx": "react",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {   
+      "@site/*": ["./*"]
+    }
+  },
+  "include": ["src/**/*", "docusaurus.config.ts"],
+  "exclude": ["node_modules"]
+}
+
+
