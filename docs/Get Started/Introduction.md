@@ -17,16 +17,18 @@ Thank you for choosing Pie-Technology LMS.
 # Features
 
 <div class="flex items-start justify-start gap-5">
-<div class="box">
+<div class="box flex-col">
   <img src="https://github.com/aisaanwar62/Docusaurus-document/blob/main/static/img/display-solid.svg?raw=true
 " class="w-10 h-10 font-extralight"/>
-
+<h1>Responsive Design</h1>
 </div>
 <div class="box">
   <img src="https://github.com/aisaanwar62/Docusaurus-document/blob/main/static/img/chart-line-solid.svg?raw=true" class="w-10 h-10"/>
+  <h1>Functional Dashboard</h1>
 </div>
 <div class="box">
   <img src="https://github.com/aisaanwar62/Docusaurus-document/blob/main/static/img/angles-right-solid.svg?raw=true" class="w-10 h-10"/>
+  <h1>Fast Performance</h1>
 </div>
 
 </div>
