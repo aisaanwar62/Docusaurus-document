@@ -37,14 +37,14 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/aisaanwar62/LMS-documentation/tree/main/docs/",
+            "https://github.com/aisaanwar62/Docusaurus-document/tree/main",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/aisaanwar62/LMS-documentation/tree/main/blog/",
+            "https://github.com/aisaanwar62/Docusaurus-document/tree/main",
         },
         theme: {
           customCss: "./src/css/custom.css",

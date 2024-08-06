@@ -14,36 +14,30 @@ Pie-Technology LMS stands out as a modern and flexible solution, ideal for educa
 
 Thank you for choosing Pie-Technology LMS.
 
-<h1 class="font-bold">Features</h1>
+# Features
+
 <div class="flex items-start justify-start gap-5">
 <div class="box">
-  <img src="/img/chrome.png" class="w-10 h-10"/>
-</div>
-<div class="box">
-  <img src="/img/opera.png" class="w-10 h-10"/>
-</div>
-<div class="box">
-  <img src="/img/mozilla.png" class="w-10 h-10"/>
-</div>
-<div class="box">
-  <img src="/img/safari.png" class="w-10 h-10"/>
+<img src="https://github.com/aisaanwar62/Docusaurus-document/raw/main/static/img/display-solid.svg?raw=true" class="w-10 h-10"/>
 </div>
 </div>
 
-<h1 class="font-bold mt-5">Browser Support</h1>
+# Browser Support
+
 <p class="mt-3">Extensive browser support</p>
 <div class="flex items-start justify-start gap-5">
 <div class="box">
-  <img src="/img/chrome.png" class="w-10 h-10"/>
+  <img src="https://github.com/aisaanwar62/Docusaurus-document/blob/main/static/img/chrome.png?raw=true" class="w-10 h-10"/>
 </div>
 <div class="box">
-  <img src="/img/opera.png" class="w-10 h-10"/>
+ <img src="https://github.com/aisaanwar62/Docusaurus-document/blob/main/static/img/opera.png?raw=true" class="w-10 h-10"/>
 </div>
 <div class="box">
-  <img src="/img/mozilla.png" class="w-10 h-10"/>
+ <img src="https://github.com/aisaanwar62/Docusaurus-document/blob/main/static/img/mozilla.png?raw=true" class="w-10 h-10"/>
+
 </div>
 <div class="box">
-  <img src="/img/safari.png" class="w-10 h-10"/>
+ <img src="https://github.com/aisaanwar62/Docusaurus-document/blob/main/static/img/safari.png?raw=true" class="w-10 h-10"/>
 </div>
 </div>
 
