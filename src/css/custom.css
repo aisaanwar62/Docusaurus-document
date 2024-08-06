@@ -34,7 +34,7 @@
 
 /* custom.css */
 .box {
-  @apply border border-gray-300 p-4 my-4 w-32 h-20 flex items-center justify-center rounded-lg bg-gray-100;
+  @apply border border-gray-300 p-4 my-4 w-44 h-28 flex items-center justify-center rounded-lg bg-gray-100;
 }
 
 .image {
