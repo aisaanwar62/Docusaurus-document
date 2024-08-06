@@ -23,14 +23,12 @@ Thank you for choosing Pie-Technology LMS.
 
 </div>
 <div class="box">
-  <img src="https://github.com/aisaanwar62/Docusaurus-document/blob/main/static/img/React-icons-search-results.html?raw=true" class="w-10 h-10"/>
+  <img src="https://github.com/aisaanwar62/Docusaurus-document/blob/main/static/img/chart-line-solid.svg?raw=true" class="w-10 h-10"/>
 </div>
 <div class="box">
-  <img src="https://github.com/aisaanwar62/Docusaurus-document/blob/main/static/img/display-solid.svg?raw=true" class="w-10 h-10"/>
+  <img src="https://github.com/aisaanwar62/Docusaurus-document/blob/main/static/img/angles-right-solid.svg?raw=true" class="w-10 h-10"/>
 </div>
-<div class="box">
-  <img src="https://github.com/aisaanwar62/Docusaurus-document/blob/main/static/img/display-solid.svg?raw=true" class="w-10 h-10"/>
-</div>
+
 </div>
 
 # Browser Support
