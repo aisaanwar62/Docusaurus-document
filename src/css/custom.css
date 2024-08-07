@@ -127,3 +127,12 @@
 .footer__contact a {
   @apply text-blue-500 hover:underline;
 }
+/* src/css/custom.css */
+.markdown h2 {
+  @apply font-semibold mt-5 mb-5 text-lg;
+  /* Ensure the text is bold */
+}
+.markdown h1 {
+  @apply font-semibold mt-5 mb-5 text-lg;
+  /* Ensure the text is bold */
+}

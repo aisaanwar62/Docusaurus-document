@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 
 <link rel="stylesheet" href="path/to/custom.css"/>
-
+<div class="ml-5">
 # Introduction
 
 <div class="mt-5">Introducing Pie-Technology Learning Management System (LMS)!</div>
@@ -14,45 +14,44 @@ Pie-Technology LMS stands out as a modern and flexible solution, ideal for educa
 
 Thank you for choosing Pie-Technology LMS.
 
-<h1 class="font-bold mt-5"> Features</h1>
+## Features
 
 <div class="flex items-start justify-start gap-5">
 <div class="border bg-amber-400 p-4 my-4 w-48 h-28 flex items-center justify-center rounded-lg  flex-col">
   <img src="https://github.com/aisaanwar62/Docusaurus-document/blob/main/static/img/display-solid.svg?raw=true
 " class="w-7 h-7 mb-2"/>
-<h1>Responsive Design</h1>
+<p>Responsive Design</p>
 </div>
 <div class="border bg-amber-400 p-4 my-4 w-48 h-28 flex items-center justify-center rounded-lg  flex-col">
   <img src="https://github.com/aisaanwar62/Docusaurus-document/blob/main/static/img/chart-line-solid.svg?raw=true" class="w-7 h-7 mb-2"/>
-  <h1>Functional Dashboard</h1>
+  <p>Functional Dashboard</p>
 </div>
 <div class="border  bg-amber-400 p-4 my-4 w-48 h-28 flex items-center justify-center rounded-lg  flex-col v">
   <img src="https://github.com/aisaanwar62/Docusaurus-document/blob/main/static/img/angles-right-solid.svg?raw=true" class="w-7 h-7 mb-2"/>
-  <h1>Fast Performance</h1>
+  <p>Fast Performance</p>
 </div>
 
 </div>
 
-<h1 class="font-bold mt-5"> Browser Support</h1>
+## Browser Support
 
 <p class="mt-3">Extensive browser support</p>
 <div class="flex items-start justify-start gap-5">
 <div class="box flex-col">
  <img src="https://github.com/aisaanwar62/Docusaurus-document/blob/main/static/img/chrome.png?raw=true" class="w-10 h-10 mb-2"/>
- <h1>Chrome</h1>
+ <p>Chrome</p>
 </div>
 <div class="box flex-col">
  <img src="https://github.com/aisaanwar62/Docusaurus-document/blob/main/static/img/opera.png?raw=true" class="w-10 h-10 mb-2"/>
-<h1>Opera</h1>
+<p>Opera</p>
 </div>
 <div class="box flex-col">
  <img src="https://github.com/aisaanwar62/Docusaurus-document/blob/main/static/img/mozilla.png?raw=true" class="w-10 h-10 mb-2"/>
-<h1>Mozilla</h1>
+<p>Mozilla</p>
 </div>
 <div class="box flex-col">
  <img src="https://github.com/aisaanwar62/Docusaurus-document/blob/main/static/img/safari.png?raw=true" class="w-10 h-10 mb-2"/>
-<h1>Safari</h1>
+<p>Safari</p>
 </div>
 </div>
-
-## Generate a new site
+</div>
