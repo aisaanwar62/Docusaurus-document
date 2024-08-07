@@ -10,17 +10,17 @@ sidebar_position: 1
 <div class="mt-5">The Admin Dashboard provides an overview of the key metrics and activities related to the trainees, trainers, batches, scheduled activities, and top-performing students.</div>
 
 <img src="https://github.com/aisaanwar62/Docusaurus-document/blob/main/static/img/admin-dashboard.png?raw=true
-" class="w-auto h-auto mb-2"/>
+" class="w-auto h-auto my-8 border shadow-md"/>
 
 <h1 class="font-bold">How to Access the Admin Dashboard</h1>
 <div class="mt-5">To access the Admin Dashboard, Login to the Admin page. Below is the image of the Admin Login page:</div>
 
 <img src="https://github.com/aisaanwar62/Docusaurus-document/blob/main/static/img/adminlogin.png?raw=true
-" class="w-auto h-auto mb-2 mt-5"/>
+" class="w-auto h-auto my-8 border shadow-md"/>
 
 <div class="mt-5">1. Log in to the admin panel using your credentials.</div>
 <div class="mt-5">2. Navigate to the Dashboard section from the main menu.</div>
-<div class="mt-5">2. Navigate to the Dashboard section from the main menu.</div>
+<div class="mt-5">3. The dashboard will display the sections as described above.</div>
 
 <h1 class="font-bold mt-5">Sections</h1>
 <h1 class="font-semibold mt-3">1. Total Trainees</h1>

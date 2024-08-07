@@ -8,7 +8,7 @@ sidebar_position: 6
 # Modules
 
 <h1 class="font-light mt-5">Modules Management</h1>
-<div class="mt-5">The Module page provides an overview of the Module management system, including the ability to view, add, edit, search, and delete Module.</div>
+<div class="mt-5">The Module page provides an overview of the Module management system, including the ability to view, add, edit, search, and delete batches.</div>
 
 <h1 class="font-bold mt-5">Overview</h1>
 <div class="mt-5">The Module Data Table show the Name of the Module, Batch, Trainer, Duration, Start Date, End Date, Status and the Actions to Copy Module ID, Edit and delete the Specific Record. Below is the image of the Modules page:</div>
@@ -32,7 +32,7 @@ sidebar_position: 6
 <img src="https://github.com/aisaanwar62/Docusaurus-document/blob/main/static/img/admin-filter-module.png?raw=true
 " class="w-auto h-auto my-8 border shadow-md"/>
 
-<h1 class="font-semibold mt-3">3. Edit the Record</h1>
+<h1 class="font-semibold mt-3">3. Edit the Module</h1>
 <div class="mt-5">To edit an existing Module, click the Action (...) in the last column of the table, then select the Edit option from the dropdown menu. This will open a page for updating Module details.</div>
 <img src="https://github.com/aisaanwar62/Docusaurus-document/blob/main/static/img/edit-module-action.png?raw=true
 " class="w-auto h-auto my-8 border shadow-md"/>
