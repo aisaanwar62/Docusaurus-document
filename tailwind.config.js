@@ -5,6 +5,7 @@ module.exports = {
     "./docs/**/*.{md,mdx}",
     "./docusaurus.config.{js,ts}",
     "./blog/**/*.{md,mdx}",
+    "./sidebars.js",
   ],
   theme: {
     extend: {},

@@ -13,8 +13,8 @@ sidebar_position: 9
 <h1 class="font-bold mt-5">Overview</h1>
 <div class="mt-5">The Assignment Data Table include the Course Name, Module name, Helping Link, File, Due Date, Total Marks and Action to View Trainees Assignment, Copy Submodule ID or Delete the Assignment. Below is the image of Assignment page:</div>
 
-<img src="https://github.com/aisaanwar62/Docusaurus-document/blob/main/static/img/assignment.PNG?raw=true
-" class="w-auto h-auto my-8 border shadow-md"/>
+<img src="https://github.com/aisaanwar62/Docusaurus-document/blob/main/static/img/assignment.png?raw=true
+" class="w-auto h-auto my-8 border shadow-md "/>
 
 <h1 class="font-bold">How to Manage Assignment</h1>
 
