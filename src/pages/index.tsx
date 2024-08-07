@@ -26,8 +26,8 @@ function HomepageHeader() {
           <p className="hero__subtitle mt-3">{siteConfig.tagline}</p>
           <div className={styles.buttons}>
             <Link
-              className="button button--secondary button--lg mt-5 text-slate-700"
-              to="/docs/Get Started/Introduction"
+              className="button  bg-white button--lg mt-5 text-slate-700"
+              to="/docs/Introduction"
             >
               View LMS Documentation
             </Link>

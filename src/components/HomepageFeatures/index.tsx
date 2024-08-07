@@ -109,7 +109,7 @@ function Feature1({ title, Svg, imgSrc, description }: FeatureItem1) {
         )}
       </div>
       <div className="flex flex-col items-start justify-center">
-        <h3 className="font-bold text-lg mb-2">{title}</h3>
+        <h3 className="font-bold text-lg mb-2 text-slate-700">{title}</h3>
         <p>{description}</p>
       </div>
     </div>
@@ -126,7 +126,7 @@ function Feature2({ title, Svg, imgSrc, description }: FeatureItem2) {
         )}
       </div>
       <div className="flex  flex-col justify-center items-start">
-        <h3 className="font-bold text-lg ">{title}</h3>
+        <h3 className="font-bold text-lg text-slate-700">{title}</h3>
         <p>{description}</p>
       </div>
     </div>
@@ -137,14 +137,24 @@ export default function HomepageFeatures(): JSX.Element {
   return (
     <div>
       {" "}
-      <section className="flex flex-col overflow-y-auto h-96 m-44 scrollbar-thin scrollbar-track-gray-100 scrollbar-thumb-amber-500">
+      <section className="flex items-center justify-center mt-32 hover: w-full   h-20 ">
+        <h1 className="font-bold text-3xl text-slate-700 underline underline-offset-4 hover:text-amber-500">
+          WHY CONNECT WITH US
+        </h1>
+      </section>
+      <section className="flex flex-col overflow-y-auto h-96 mx-44 my-20 scrollbar-thin scrollbar-track-gray-100 scrollbar-thumb-amber-500">
         <div className={` items-center justify-center `}>
           {FeatureList1.map((props, idx) => (
             <Feature1 key={idx} {...props} />
           ))}
         </div>
       </section>
-      <section className="flex flex-col overflow-y-auto h-96 m-44 scrollbar-thin scrollbar-track-gray-100 scrollbar-thumb-amber-500">
+      <section className="flex items-center justify-center mt-32 bg-amber-500 w-full h-20  ">
+        <h1 className="font-bold text-3xl text-slate-700 underline underline-offset-8">
+          ROLES
+        </h1>
+      </section>
+      <section className="flex flex-col overflow-y-auto h-96 mx-44 my-28 scrollbar-thin scrollbar-track-gray-100 scrollbar-thumb-amber-500">
         <div className={` items-center justify-center    `}>
           {FeatureList2.map((props, idx) => (
             <Feature2 key={idx} {...props} />
