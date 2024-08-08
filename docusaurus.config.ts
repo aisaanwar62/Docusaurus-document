@@ -55,7 +55,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: "img/docusaurus-social-card.jpg",
+    image: "img/Logo-tag.png",
     navbar: {
       logo: {
         alt: "My Site Logo",
@@ -68,7 +68,7 @@ const config: Config = {
           type: "html",
           position: "right",
           value:
-            '<span class="text-slate-700 font-bold">Pie-Technologies</span> <span class="navbar__item--documentation">Documentation</span>',
+            '<span class="text-slate-700 font-bold 2xl:text-2xl">Pie-Technologies</span> <span class="navbar__item--documentation">Documentation</span>',
         },
       ],
     },
@@ -85,7 +85,7 @@ const config: Config = {
           title: "Quotes",
           items: [
             {
-              html: `<div class="w-56">Your launchpad to digital success, Where innovation meets expertise.</div>
+              html: `<div class="">Your launchpad to digital success, Where innovation meets expertise.</div>
 
 `,
             },
@@ -106,11 +106,11 @@ const config: Config = {
             {
               html: `
                 <div class="footer__contact">
-                <div class="border-r-2 border-white w-48">
+                <div class="border-r-2 border-white w-48 2xl:w-96">
                   <p>Plot no 38/129, Jinnah Garden, Phase-1, Islamabad.</p>
                   <p>Buraq Centre, 2nd Floor, 11-D, 6th Road, Satellite Town, Rawalpindi</p>
                   </div>
-                  <div class="ml-3 w-64">
+                  <div class="ml-3  2xl:ml-52 w-64 2xl:w-72">
                   <p>Email: <a href="mailto:info@pie-technologies.com">info@pie-technologies.com</a></p>
                   <p>Phone: +92 333 5020126</p>
                   <p>Phone: +92 51 6142400</p>
@@ -141,7 +141,7 @@ const config: Config = {
 <div class="footer__social-icons">
   <div class="footer__social-icon1">
     <a href="https://facebook.com" class="footer__social-icon" aria-label="Facebook">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="fill-sky-500"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64h98.2V334.2H109.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H255V480H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="fill-sky-500 "><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64h98.2V334.2H109.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H255V480H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64z"/></svg>
     </a>
   </div>
   <div class="footer__social-icon2">

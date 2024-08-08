@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 
 <link rel="stylesheet" href="path/to/custom.css"/>
-<div class="ml-5">
+<div class="">
 # Introduction
 
 <div class="mt-5">Introducing Pie-Technology Learning Management System (LMS)!</div>

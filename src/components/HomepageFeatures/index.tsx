@@ -24,7 +24,7 @@ const FeatureList1: FeatureItem1[] = [
         intimidation. That‘s why we bridge the gap between talent and
         opportunity, empowering individuals and businesses to achieve their
         digital dreams. Pie Technologies is your launchpad to digital success
-        where innovation meets expertise. About us
+        where innovation meets expertise.
       </>
     ),
   },
@@ -100,15 +100,22 @@ const FeatureList2: FeatureItem2[] = [
 
 function Feature1({ title, Svg, imgSrc, description }: FeatureItem1) {
   return (
-    <div className="flex items-start space-x-4 px-32">
+    <div className="flex items-start space-x-4 px-32 md:px-14 2xl:px-20">
       <div className="flex-shrink-0">
         {Svg ? (
-          <Svg className="w-96 h-96 pr-5" role="img" />
+          <Svg
+            className="w-96 h-96 md:w-60 md:h-60 2xl:w-96 2xl:h-96 pr-5"
+            role="img"
+          />
         ) : (
-          <img src={imgSrc} alt={title} className="w-96 h-96 pr-5" />
+          <img
+            src={imgSrc}
+            alt={title}
+            className="w-96 h-96  md:w-60 md:h-60 2xl:w-96 2xl:h-96 pr-5"
+          />
         )}
       </div>
-      <div className="flex flex-col items-start justify-center">
+      <div className="flex flex-col items-start justify-center 2xl:text-2xl">
         <h3 className="font-bold text-lg mb-2 text-slate-700">{title}</h3>
         <p>{description}</p>
       </div>
@@ -117,16 +124,23 @@ function Feature1({ title, Svg, imgSrc, description }: FeatureItem1) {
 }
 function Feature2({ title, Svg, imgSrc, description }: FeatureItem2) {
   return (
-    <div className="flex items-start space-x-4 px-32">
+    <div className="flex items-start space-x-4 px-32 md:px-14 2xl:px-20">
       <div className="flex-shrink-0">
         {Svg ? (
-          <Svg className="w-96 h-96 pr-5" role="img" />
+          <Svg
+            className="w-96 h-96 md:w-56 md:h-56 2xl:w-96 2xl:h-96 pr-5"
+            role="img"
+          />
         ) : (
-          <img src={imgSrc} alt={title} className="w-96 h-96 pr-5" />
+          <img
+            src={imgSrc}
+            alt={title}
+            className="w-96 h-96 md:w-56 md:h-56 2xl:w-96 2xl:h-96 pr-5"
+          />
         )}
       </div>
-      <div className="flex  flex-col justify-center items-start">
-        <h3 className="font-bold text-lg text-slate-700">{title}</h3>
+      <div className="flex  flex-col justify-center items-start 2xl:text-2xl">
+        <h3 className="font-bold text-lg mb-2 text-slate-700">{title}</h3>
         <p>{description}</p>
       </div>
     </div>
@@ -138,11 +152,11 @@ export default function HomepageFeatures(): JSX.Element {
     <div>
       {" "}
       <section className="flex items-center justify-center mt-32 hover: w-full   h-20 ">
-        <h1 className="font-bold text-3xl text-slate-700 underline underline-offset-4 hover:text-amber-500">
+        <h1 className="font-bold text-3xl md:text-2xl  text-slate-700 underline underline-offset-4 hover:text-amber-500">
           WHY CONNECT WITH US
         </h1>
       </section>
-      <section className="flex flex-col overflow-y-auto h-96 mx-44 my-20 scrollbar-thin scrollbar-track-gray-100 scrollbar-thumb-amber-500">
+      <section className="flex flex-col overflow-y-auto h-96 md:h-64 2xl:h-96 2xl:mx-52 mx-44 md:mx-20 my-20 scrollbar-thin scrollbar-track-gray-100 scrollbar-thumb-amber-500">
         <div className={` items-center justify-center `}>
           {FeatureList1.map((props, idx) => (
             <Feature1 key={idx} {...props} />
@@ -150,11 +164,11 @@ export default function HomepageFeatures(): JSX.Element {
         </div>
       </section>
       <section className="flex items-center justify-center mt-32 bg-amber-500 w-full h-20  ">
-        <h1 className="font-bold text-3xl text-slate-700 underline underline-offset-8">
+        <h1 className="font-bold text-3xl 2xl:text-3xl text-slate-700 underline underline-offset-8">
           ROLES
         </h1>
       </section>
-      <section className="flex flex-col overflow-y-auto h-96 mx-44 my-28 scrollbar-thin scrollbar-track-gray-100 scrollbar-thumb-amber-500">
+      <section className="flex flex-col overflow-y-auto h-96 md:h-56 2xl:h-96 2xl:mx-52 mx-44 md:mx-20 my-28 scrollbar-thin scrollbar-track-gray-100 scrollbar-thumb-amber-500">
         <div className={` items-center justify-center    `}>
           {FeatureList2.map((props, idx) => (
             <Feature2 key={idx} {...props} />

@@ -20,10 +20,15 @@ function HomepageHeader() {
     >
       <div className="container flex items-center">
         <div className="flex-1">
-          <Heading as="h1" className="text-4xl text-slate-700 font-bold">
+          <Heading
+            as="h1"
+            className="text-3xl text-slate-700 font-bold 2xl:text-5xl md:text-2xl"
+          >
             {siteConfig.title}
           </Heading>
-          <p className="hero__subtitle mt-3">{siteConfig.tagline}</p>
+          <p className="hero__subtitle mt-3 2xl:text-3xl md:text-xl">
+            {siteConfig.tagline}
+          </p>
           <div className={styles.buttons}>
             <Link
               className="button  bg-white button--lg mt-5 text-slate-700"
@@ -36,7 +41,7 @@ function HomepageHeader() {
         <img
           src="/img/main-page.PNG"
           alt="Main Page"
-          className="w-96 h-auto ml-auto p-3 shadow-lg" // Tailwind CSS classes to control width and push the image to the right
+          className="w-96 h-auto ml-3 p-3 shadow-lg" // Tailwind CSS classes to control width and push the image to the right
         />
       </div>
     </header>

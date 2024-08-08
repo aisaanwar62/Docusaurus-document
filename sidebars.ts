@@ -18,7 +18,7 @@ const sidebars: SidebarsConfig = {
       items: [
         "Introduction", // Ensure this matches the document ID
       ],
-      className: "my-4 text-base font-semibold", // Apply Tailwind CSS classes here
+      className: "my-4 text-base font-semibold ", // Added responsive padding-right
     },
     {
       type: "category",
@@ -33,7 +33,7 @@ const sidebars: SidebarsConfig = {
         "Admin/Questions",
         "Admin/Feedback",
       ],
-      className: "my-4 text-base font-semibold",
+      className: "my-4 text-base font-semibold ", // Added responsive padding-right
     },
     {
       type: "category",
@@ -50,7 +50,7 @@ const sidebars: SidebarsConfig = {
         "Trainer/Assignment",
         "Trainer/Test",
       ],
-      className: "my-4 text-base font-semibold",
+      className: "my-4 text-base font-semibold ", // Added responsive padding-right
     },
     {
       type: "category",
@@ -65,7 +65,7 @@ const sidebars: SidebarsConfig = {
         "Trainee/Feedback",
         "Trainee/My Progress",
       ],
-      className: "my-4 text-base font-semibold",
+      className: "my-4 text-base font-semibold ", // Added responsive padding-right
     },
   ],
 };
