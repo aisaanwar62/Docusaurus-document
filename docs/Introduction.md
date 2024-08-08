@@ -16,6 +16,8 @@ Thank you for choosing Pie-Technology LMS.
 
 ## Features
 
+<p class="mt-3">Discover the features of Pie-Technology LMS</p>
+
 <div class="flex items-start justify-start gap-5">
 <div class="border bg-amber-400 p-4 my-4 w-48 h-28 flex items-center justify-center rounded-lg  flex-col">
   <img src="https://github.com/aisaanwar62/Docusaurus-document/blob/main/static/img/display-solid.svg?raw=true

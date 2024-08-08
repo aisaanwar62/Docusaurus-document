@@ -5,7 +5,8 @@ sidebar_position: 3
 
 <link rel="stylesheet" href="path/to/custom.css"/>
 <div class="ml-5">
-#Trainees
+# Trainees
+<p class="font-light mt-5">Trainee Management</p>
 
 <div class="mt-5">The Trainees page provides an overview of all the Trainees of the batch in the Table Form.</div>
 

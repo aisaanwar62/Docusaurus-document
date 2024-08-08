@@ -5,7 +5,7 @@ sidebar_position: 3
 
 <link rel="stylesheet" href="path/to/custom.css"/>
 <div class="ml-5"> 
-#Trainers
+# Trainers
 
 <p class="font-light mt-5">Trainer Management</p>
 <div class="mt-5">The Trainers page provides an overview of the trainer management system, including the ability to view the overall trainers, add, edit, search, and delete trainers.</div>

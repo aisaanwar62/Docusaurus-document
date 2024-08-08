@@ -5,7 +5,7 @@ sidebar_position: 4
 
 <link rel="stylesheet" href="path/to/custom.css"/>
 <div class="ml-5"> 
-#Trainees
+# Trainees
 
 <h1 class="font-light mt-5">Trainee Management</h1>
 <div class="mt-5">The Trainees page provides an overview of the trainee management system, including the ability to view the overall reocrd, add, edit, search, and delete trainees.</div>
