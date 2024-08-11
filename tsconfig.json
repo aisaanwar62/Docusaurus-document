@@ -14,7 +14,7 @@
       "@site/*": ["./*"]
     }
   },
-  "include": ["src/**/*", "docusaurus.config.ts"],
+  "include": ["src/**/*", "docusaurus.config.ts", "@/lib"],
   "exclude": ["node_modules"]
 }
 

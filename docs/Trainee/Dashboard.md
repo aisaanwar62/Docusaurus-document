@@ -16,9 +16,9 @@ sidebar_position: 1
 
 <div class="mt-5">To access the Trainee Dashboard, Login to the Trainee page. Below is the image of the Trainee Login page:s</div>
 
-<img src="https://github.com/aisaanwar62/Docusaurus-document/blob/main/static/img/traineelogin.png?raw=true
+<img src="/img/trainee-login-green.png?raw=true
 " class="w-auto h-auto my-8 border shadow-md"/>
-<img src="https://github.com/aisaanwar62/Docusaurus-document/blob/main/static/img/traineeregister.png?raw=true
+<img src="/img/trainee-register-green.png?raw=true
 " class="w-auto h-auto my-8 border shadow-md"/>
 
 <div class="mt-5">1. Log in to the Trainee panel using your credentials.</div>

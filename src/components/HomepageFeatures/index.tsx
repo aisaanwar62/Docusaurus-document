@@ -1,4 +1,5 @@
 import React from "react";
+import Particles from "../magicui/particles";
 // index.js or App.js
 
 type FeatureItem1 = {
@@ -17,7 +18,7 @@ type FeatureItem2 = {
 const FeatureList1: FeatureItem1[] = [
   {
     title: "OUR MISSION",
-    Svg: require("@site/static/img/undraw_goals_re_lu76.svg").default,
+    Svg: require("@site/static/img/undraw_goals_re_lu76 (1).svg").default,
     description: (
       <>
         We believe technology should be a powerful tool for progress, not
@@ -100,7 +101,7 @@ const FeatureList2: FeatureItem2[] = [
 
 function Feature1({ title, Svg, imgSrc, description }: FeatureItem1) {
   return (
-    <div className="flex items-start space-x-4 px-32 md:px-14 2xl:px-20">
+    <div className="flex items-start space-x-4 px-32 md:px-14 ">
       <div className="flex-shrink-0">
         {Svg ? (
           <Svg
@@ -111,11 +112,11 @@ function Feature1({ title, Svg, imgSrc, description }: FeatureItem1) {
           <img
             src={imgSrc}
             alt={title}
-            className="w-96 h-96  md:w-60 md:h-60 2xl:w-96 2xl:h-96 pr-5"
+            className="w-96 h-96  md:w-60 md:h-60 2xl:w-56 2xl:h-96 pr-5"
           />
         )}
       </div>
-      <div className="flex flex-col items-start justify-center 2xl:text-2xl">
+      <div className="flex flex-col items-start justify-center 2xl:text-lg">
         <h3 className="font-bold text-lg mb-2 text-slate-700">{title}</h3>
         <p>{description}</p>
       </div>
@@ -124,7 +125,7 @@ function Feature1({ title, Svg, imgSrc, description }: FeatureItem1) {
 }
 function Feature2({ title, Svg, imgSrc, description }: FeatureItem2) {
   return (
-    <div className="flex items-start space-x-4 px-32 md:px-14 2xl:px-20">
+    <div className="flex items-start space-x-4 px-32 md:px-14 ">
       <div className="flex-shrink-0">
         {Svg ? (
           <Svg
@@ -135,11 +136,11 @@ function Feature2({ title, Svg, imgSrc, description }: FeatureItem2) {
           <img
             src={imgSrc}
             alt={title}
-            className="w-96 h-96 md:w-56 md:h-56 2xl:w-96 2xl:h-96 pr-5"
+            className="w-96 h-96 md:w-56 md:h-56 2xl:w-56 2xl:h-96 pr-5"
           />
         )}
       </div>
-      <div className="flex  flex-col justify-center items-start 2xl:text-2xl">
+      <div className="flex  flex-col justify-center items-start 2xl:text-lg">
         <h3 className="font-bold text-lg mb-2 text-slate-700">{title}</h3>
         <p>{description}</p>
       </div>
@@ -151,24 +152,27 @@ export default function HomepageFeatures(): JSX.Element {
   return (
     <div>
       {" "}
-      <section className="flex items-center justify-center mt-32 hover: w-full   h-20 ">
-        <h1 className="font-bold text-3xl md:text-2xl  text-slate-700 underline underline-offset-4 hover:text-amber-500">
+      <section className="flex items-center justify-center mt-32 h-20 ">
+        <h1 className="font-bold text-3xl md:text-xl  text-slate-700 underline underline-offset-4 hover:text-green-700">
           WHY CONNECT WITH US
         </h1>
       </section>
-      <section className="flex flex-col overflow-y-auto h-96 md:h-64 2xl:h-96 2xl:mx-52 mx-44 md:mx-20 my-20 scrollbar-thin scrollbar-track-gray-100 scrollbar-thumb-amber-500">
+      <section className="flex flex-col overflow-y-auto h-96 md:h-64 2xl:h-96 2xl:mx-44 mx-44 md:mx-20 my-20 scrollbar-thin scrollbar-track-gray-100 scrollbar-thumb-green-700">
         <div className={` items-center justify-center `}>
           {FeatureList1.map((props, idx) => (
             <Feature1 key={idx} {...props} />
           ))}
         </div>
       </section>
-      <section className="flex items-center justify-center mt-32 bg-amber-500 w-full h-20  ">
-        <h1 className="font-bold text-3xl 2xl:text-3xl text-slate-700 underline underline-offset-8">
+      <section className="relative flex items-center justify-center mt-32 bg-green-700 w-full h-20">
+        {/* Make sure Particles covers the entire section */}
+        <Particles className="absolute top-0 left-0 w-full h-full" />
+
+        <h1 className="font-bold text-3xl 2xl:text-xl text-green-950 underline underline-offset-8 relative z-10 hover:text-white">
           ROLES
         </h1>
       </section>
-      <section className="flex flex-col overflow-y-auto h-96 md:h-56 2xl:h-96 2xl:mx-52 mx-44 md:mx-20 my-28 scrollbar-thin scrollbar-track-gray-100 scrollbar-thumb-amber-500">
+      <section className="flex flex-col overflow-y-auto h-96 md:h-56 2xl:h-96 2xl:mx-44 mx-44 md:mx-20 my-28 scrollbar-thin scrollbar-track-gray-100 scrollbar-thumb-green-700">
         <div className={` items-center justify-center    `}>
           {FeatureList2.map((props, idx) => (
             <Feature2 key={idx} {...props} />

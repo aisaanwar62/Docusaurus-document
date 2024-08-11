@@ -7,7 +7,7 @@ import "../../css/custom.css";
 export default function DocSidebarWrapper(props: Props): JSX.Element {
   console.log("Custom DocSidebarWrapper is being used"); // Add this line for verification
   return (
-    <div className=" ">
+    <div className="custom-sidebar">
       <DocSidebar {...props} />
     </div>
   );

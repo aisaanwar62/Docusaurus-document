@@ -16,7 +16,7 @@ sidebar_position: 1
 
 <div class="mt-5">To access the Admin Dashboard, Login to the Admin page. Below is the image of the Admin Login page:</div>
 
-<img src="https://github.com/aisaanwar62/Docusaurus-document/blob/main/static/img/adminlogin.png?raw=true
+<img src="/img/admin-login-green.png?raw=true
 " class="w-auto h-auto my-8 border shadow-md"/>
 
 <div class="mt-5">1. Log in to the admin panel using your credentials.</div>

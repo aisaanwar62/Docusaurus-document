@@ -16,8 +16,7 @@ sidebar_position: 1
 
 <div class="mt-5">To access the Trainer Dashboard, Login to the Trainer page. Below is the image of the Trainer Login page:</div>
 
-<img src="https://github.com/aisaanwar62/Docusaurus-document/blob/main/static/img/trainerlogin.png?raw=true
-" class="w-auto h-auto my-8 border shadow-md"/>
+<img src="/img/trainer-green-login.png" class="w-auto h-auto my-8 border shadow-md"/>
 
 <div class="mt-5">1. Log in to the trainer panel using your credentials.</div>
 <div class="mt-5">2. Navigate to the Dashboard section from the main menu.</div>

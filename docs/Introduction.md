@@ -19,18 +19,18 @@ Thank you for choosing Pie-Technology LMS.
 <p class="mt-3">Discover the features of Pie-Technology LMS</p>
 
 <div class="flex items-start justify-start gap-5">
-<div class="border bg-amber-400 p-4 my-4 w-48 h-28 flex items-center justify-center rounded-lg  flex-col">
+<div class="border bg-gradient-to-br from-green-950 to-green-600 p-4 my-4 w-48 h-28 flex items-center justify-center rounded-lg  flex-col">
   <img src="https://github.com/aisaanwar62/Docusaurus-document/blob/main/static/img/display-solid.svg?raw=true
 " class="w-7 h-7 mb-2"/>
-<p>Responsive Design</p>
+<p class="text-white">Responsive Design</p>
 </div>
-<div class="border bg-amber-400 p-4 my-4 w-48 h-28 flex items-center justify-center rounded-lg  flex-col">
+<div class="border bg-gradient-to-br from-green-950 to-green-600 p-4 my-4 w-48 h-28 flex items-center justify-center rounded-lg  flex-col">
   <img src="https://github.com/aisaanwar62/Docusaurus-document/blob/main/static/img/chart-line-solid.svg?raw=true" class="w-7 h-7 mb-2"/>
-  <p>Functional Dashboard</p>
+  <p class="text-white">Functional Dashboard</p>
 </div>
-<div class="border  bg-amber-400 p-4 my-4 w-48 h-28 flex items-center justify-center rounded-lg  flex-col v">
+<div class="border  bg-gradient-to-br from-green-950 to-green-600 p-4 my-4 w-48 h-28 flex items-center justify-center rounded-lg  flex-col ">
   <img src="https://github.com/aisaanwar62/Docusaurus-document/blob/main/static/img/angles-right-solid.svg?raw=true" class="w-7 h-7 mb-2"/>
-  <p>Fast Performance</p>
+  <p class="text-white">Fast Performance</p>
 </div>
 
 </div>
