@@ -20,20 +20,25 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(66, 210, 220, 0.3);
 }
+/* Custom styles */
+button[title*="Switch between dark and light mode"] {
+  @apply bg-gray-400 hover:bg-gray-400; /* Tailwind CSS utility classes */
+}
+
 button[title*="Switch between dark and light mode"]
   .lightToggleIcon_node_modules-\@docusaurus-theme-classic-lib-theme-ColorModeToggle-styles-module
   path {
-  fill: white !important; /* Change icon color to white */
+  @apply fill-white;
 }
 
 button[title*="Switch between dark and light mode"]
   .darkToggleIcon_node_modules-\@docusaurus-theme-classic-lib-theme-ColorModeToggle-styles-module
   path {
-  fill: white !important; /* Change icon color to white */
+  @apply fill-white;
 }
 
 button[title*="Switch between dark and light mode"]:hover {
-  background-color: white !important;
+  @apply fill-white;
 }
 /* Custom styles */
 .navbar {
@@ -50,10 +55,7 @@ button[title*="Switch between dark and light mode"]:hover {
 }
 
 .image {
-  display: block;
-  margin: 16px auto;
-  max-width: 100%;
-  height: auto;
+  @apply block mx-auto my-4 max-w-full h-auto;
 }
 
 /* In custom.css */
