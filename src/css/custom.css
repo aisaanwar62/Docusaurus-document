@@ -107,14 +107,14 @@ button[title*="Switch between dark and light mode"]:hover {
 }
 
 .footer__social-icon svg {
-  @apply w-8 h-8 2xl:w-16 2xl:h-16;
+  @apply w-8 h-8 2xl:w-8 2xl:h-8;
 }
 
 .footer__social-icon1,
 .footer__social-icon2,
 .footer__social-icon3,
 .footer__social-icon4 {
-  @apply w-10 h-10 rounded-full  text-white transition ease-in-out duration-300;
+  @apply w-8 h-8  rounded-full  text-white transition ease-in-out duration-300;
 }
 
 .footer__social-icon1:hover,
