@@ -36,7 +36,7 @@ button[title*="Switch between dark and light mode"]
 
 /* Change background color to gray on hover */
 button[title*="Switch between dark and light mode"]:hover {
-  background-color: gray !important;
+  background-color: white !important;
 }
 /* Custom styles */
 .navbar {
