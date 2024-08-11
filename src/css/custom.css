@@ -26,15 +26,12 @@ button[title*="Switch between dark and light mode"]
   fill: white !important; /* Change icon color to white */
 }
 
-/* Optionally, target the dark mode icon for consistency */
 button[title*="Switch between dark and light mode"]
   .darkToggleIcon_node_modules-\@docusaurus-theme-classic-lib-theme-ColorModeToggle-styles-module
   path {
-  fill: white !important;
-  /* Change icon color to white */
+  fill: white !important; /* Change icon color to white */
 }
 
-/* Change background color to gray on hover */
 button[title*="Switch between dark and light mode"]:hover {
   background-color: white !important;
 }
