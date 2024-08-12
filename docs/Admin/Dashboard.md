@@ -9,7 +9,7 @@ sidebar_position: 1
 
 <div class="mt-5">The Admin Dashboard provides an overview of the key metrics and activities related to the trainees, trainers, batches, scheduled activities, and top-performing students.</div>
 
-<img src="https://github.com/aisaanwar62/Docusaurus-document/blob/main/static/img/admin-dashboard.png?raw=true
+<img src="https://github.com/aisaanwar62/Docusaurus-document/blob/main/static/img/admin-dashboard-green.png?raw=true
 " class="w-auto h-auto my-8 border shadow-md"/>
 
 ## How to Access the Admin Dashboard

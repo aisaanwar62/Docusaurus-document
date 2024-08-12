@@ -9,7 +9,7 @@ sidebar_position: 1
 
 <div class="mt-5">The Trainer Dashboard provides an overview of the key metrics and activities related to the Total Modules, Total Lectures Delivered, Batches Assigned, Tests/Assignments Conducted and list of the 5 top-performing students.</div>
 
-<img src="https://github.com/aisaanwar62/Docusaurus-document/blob/main/static/img/trainer-dashboard.png?raw=true
+<img src="https://github.com/aisaanwar62/Docusaurus-document/blob/main/static/img/trainer-dashboard-green.png?raw=true
 " class="w-auto h-auto my-8 border shadow-md"/>
 
 ## How to Access the Trainer Dashboard

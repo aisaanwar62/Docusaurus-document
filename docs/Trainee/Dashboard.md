@@ -9,7 +9,7 @@ sidebar_position: 1
 
 <div class="mt-5">The Trainee Dashboard provides an overview of the key metrics and activities related to the Total Modules, Assignment, Tests, Active Activity, Your Daily Tasks, Your daily Plans and Tasks FInished. Below is the image of the Trainee Dashboard:</div>
 
-<img src="https://github.com/aisaanwar62/Docusaurus-document/blob/main/static/img/trainee-dashboard.png?raw=true
+<img src="https://github.com/aisaanwar62/Docusaurus-document/blob/main/static/img/trainee-dashboard-green.png?raw=true
 " class="w-auto h-auto my-8 border shadow-md"/>
 
 ## How to Access the Trainee Dashboard
