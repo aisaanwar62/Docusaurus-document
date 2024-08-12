@@ -168,7 +168,7 @@ export default function HomepageFeatures(): JSX.Element {
         {/* Make sure Particles covers the entire section */}
         <Particles className="absolute top-0 left-0 w-full h-full" />
 
-        <h1 className="font-bold text-3xl 2xl:text-xl text-green-950 underline underline-offset-8 relative z-10 hover:text-white">
+        <h1 className="font-bold text-3xl 2xl:text-xl text-white underline underline-offset-8 relative z-10 hover:text-white">
           ROLES
         </h1>
       </section>
