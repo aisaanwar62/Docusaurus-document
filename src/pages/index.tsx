@@ -47,9 +47,9 @@ function HomepageHeader() {
         <img
           src="/img/green-main.png"
           alt="Main Page"
-          className="  ml-3 p-3 shadow-lg shadow-green-600"
-          width={500}
-          height={500}
+          className="  ml-3 p-2 shadow-lg shadow-green-600"
+          width={450}
+          height={450}
         />
       </div>
     </header>
