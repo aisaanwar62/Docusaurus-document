@@ -131,11 +131,11 @@ function Feature1({ title, Svg, imgSrc, description }: FeatureItem1) {
 }
 function Feature2({ title, Svg, imgSrc, description }: FeatureItem2) {
   return (
-    <div className="flex items-start space-x-4 px-32 md:px-14 ">
+    <div className="flex  items-center  w-full  px-36 ">
       <div className="flex-shrink-0">
         {Svg ? (
           <Svg
-            className="w-96 h-96 md:w-56 md:h-56 2xl:w-96 2xl:h-96 pr-5"
+            className="w-auto h-auto md:w-56 md:h-56 2xl:w-96 2xl:h-96 pr-5"
             role="img"
           />
         ) : (
@@ -146,7 +146,7 @@ function Feature2({ title, Svg, imgSrc, description }: FeatureItem2) {
           />
         )}
       </div>
-      <div className="flex  flex-col justify-center items-start 2xl:text-lg">
+      <div className="flex  flex-col justify-center items-start ">
         <h3 className="font-bold text-lg mb-2 text-slate-700">{title}</h3>
         <p>{description}</p>
       </div>
@@ -157,9 +157,13 @@ function Feature2({ title, Svg, imgSrc, description }: FeatureItem2) {
 export default function HomepageFeatures(): JSX.Element {
   const [currentIndex, setCurrentIndex] = useState(0);
   const sliderRef = useRef<HTMLDivElement>(null);
+  const [currentIndex1, setCurrentIndex1] = useState(0);
+  const [currentIndex2, setCurrentIndex2] = useState(0);
+  const sliderRef1 = useRef<HTMLDivElement>(null);
+  const sliderRef2 = useRef<HTMLDivElement>(null);
 
-  const handleScroll = (direction: 'left' | 'right') => {
-    setCurrentIndex((prevIndex) => {
+  const handleScroll1 = (direction: 'left' | 'right') => {
+    setCurrentIndex1((prevIndex) => {
       if (direction === 'left') {
         return prevIndex === 0 ? FeatureList1.length - 1 : prevIndex - 1;
       } else {
@@ -168,25 +172,45 @@ export default function HomepageFeatures(): JSX.Element {
     });
   };
 
- useEffect(() => {
-    if (sliderRef.current) {
-      sliderRef.current.scrollTo({
-        left: currentIndex * sliderRef.current.clientWidth,
-        behavior: 'smooth'
+  const handleScroll2 = (direction: 'left' | 'right') => {
+    setCurrentIndex2((prevIndex) => {
+      if (direction === 'left') {
+        return prevIndex === 0 ? FeatureList2.length - 1 : prevIndex - 1;
+      } else {
+        return prevIndex === FeatureList2.length - 1 ? 0 : prevIndex + 1;
+      }
+    });
+  };
+
+  useEffect(() => {
+    if (sliderRef1.current) {
+      sliderRef1.current.scrollTo({
+        left: currentIndex1 * sliderRef1.current.clientWidth,
+        behavior: 'smooth',
       });
     }
-  }, [currentIndex]);
+  }, [currentIndex1]);
+
+  useEffect(() => {
+    if (sliderRef2.current) {
+      sliderRef2.current.scrollTo({
+        left: currentIndex2 * sliderRef2.current.clientWidth,
+        behavior: 'smooth',
+      });
+    }
+  }, [currentIndex2]);
+
   return (
     <div>
-      {" "}
-      <section className="flex items-center justify-center mt-32 h-20 ">
-        <h1 className="font-bold text-3xl md:text-xl  text-slate-700 underline underline-offset-4 hover:text-green-700">
+      {/* Contact Us Section */}
+      <section className="flex items-center justify-center mt-32 h-20">
+        <h1 className="font-bold text-3xl md:text-xl text-slate-700 underline underline-offset-4 hover:text-green-700">
           WHY CONNECT WITH US
         </h1>
       </section>
       <section className="relative mx-auto my-20">
-        <div className="overflow-hidden" ref={sliderRef}>
-          <div className="flex items-center justify-center " style={{ width: `${FeatureList1.length * 100}%` }}>
+        <div className="overflow-hidden" ref={sliderRef1}>
+          <div className="flex items-center justify-center" style={{ width: `${FeatureList1.length * 100}%` }}>
             {FeatureList1.map((props, idx) => (
               <Feature1 key={idx} {...props} />
             ))}
@@ -196,7 +220,7 @@ export default function HomepageFeatures(): JSX.Element {
           variant="outline"
           size="icon"
           className="absolute left-0 top-1/2 -translate-y-1/2 bg-white shadow-md"
-          onClick={() => handleScroll('left')}
+          onClick={() => handleScroll1('left')}
         >
           <ChevronLeft className="h-4 w-4" />
         </Button>
@@ -204,25 +228,43 @@ export default function HomepageFeatures(): JSX.Element {
           variant="outline"
           size="icon"
           className="absolute right-0 top-1/2 -translate-y-1/2 bg-white shadow-md"
-          onClick={() => handleScroll('right')}
+          onClick={() => handleScroll1('right')}
         >
           <ChevronRight className="h-4 w-4" />
         </Button>
       </section>
-      <section className="relative flex items-center justify-center mt-32 bg-green-800 w-full h-20">
-        {/* Make sure Particles covers the entire section */}
-        <Particles className="absolute top-0 left-0 w-full h-full" />
 
+      {/* Roles Section */}
+      <section className="relative flex items-center justify-center mt-32 bg-green-800 w-full h-20">
+        <Particles className="absolute top-0 left-0 w-full h-full" />
         <h1 className="font-bold text-3xl 2xl:text-xl text-white underline underline-offset-8 relative z-10 hover:text-white">
           ROLES
         </h1>
       </section>
-      <section className="flex flex-col overflow-y-auto h-96 md:h-56 2xl:h-96 2xl:mx-44 mx-44 md:mx-20 my-28 scrollbar-thin scrollbar-track-gray-100 scrollbar-thumb-green-700">
-        <div className={` items-center justify-center    `}>
-          {FeatureList2.map((props, idx) => (
-            <Feature2 key={idx} {...props} />
-          ))}
+      <section className="relative mx-auto my-20 mb-36">
+        <div className="overflow-hidden" ref={sliderRef2}>
+          <div className="flex items-center justify-center" style={{ width: `${FeatureList2.length * 100}%` }}>
+            {FeatureList2.map((props, idx) => (
+              <Feature2 key={idx} {...props} />
+            ))}
+          </div>
         </div>
+        <Button
+          variant="outline"
+          size="icon"
+          className="absolute left-0 top-1/2 -translate-y-1/2 bg-white shadow-md"
+          onClick={() => handleScroll2('left')}
+        >
+          <ChevronLeft className="h-4 w-4" />
+        </Button>
+        <Button
+          variant="outline"
+          size="icon"
+          className="absolute right-0 top-1/2 -translate-y-1/2 bg-white shadow-md"
+          onClick={() => handleScroll2('right')}
+        >
+          <ChevronRight className="h-4 w-4" />
+        </Button>
       </section>
     </div>
   );

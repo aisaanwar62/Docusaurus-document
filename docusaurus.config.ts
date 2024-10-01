@@ -5,7 +5,7 @@ import Particles from "./src/components/magicui/particles";
 const config: Config = {
   title: "Learning Management System",
   tagline: "Documentation for the Learning Management System",
-  favicon: "img/Logo-tag.png",
+  favicon: "img/whitePieLogo.png",
 
   // Set the production url of your site here
   url: "https://lms-documentation-six.vercel.app/",
